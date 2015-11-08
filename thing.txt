@@ -1,1 +1,1 @@
-test thing
+Testing the fetch command.
