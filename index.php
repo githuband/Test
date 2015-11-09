@@ -7,10 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Regex</title>
 		<link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://basehold.it/24">
 
 	</head>
 
 	<body>
+
+        <h1>Typography</h1>
+        <h2>Typography</h2>
+        <h3>Typography</h3>
+        <h4>Typography</h4>
+        <h5>Typography</h5>
+        <h6>Typography</h6>
 
         <p>Welcome to RegExr v2.0 by gskinner.com!</p>
         <p>Edit the Expression & Text to see matches. Roll over matches or the expression for details. Undo mistakes with ctrl-z. Save & Share expressions with friends or the Community. A full Reference & Help is available in the Library, or watch the video Tutorial.</p>
