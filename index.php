@@ -7,8 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Regex</title>
 		<link href="style.css" rel="stylesheet">
-        <link rel="stylesheet" href="http://basehold.it/12">
-
+<!--         <link rel="stylesheet" href="http://basehold.it/12">
+ -->
 	</head>
 
 	<body>
