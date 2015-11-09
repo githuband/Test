@@ -1,4 +1,6 @@
-//foundation
+// I don't like either resetting or normalizing, so this is my customizable foundation, based on this awesome article:
+// http://jaydenseric.com/blog/forget-normalize-or-resets-lay-your-own-css-foundation
+// Which also explains why those two techniques are bad.
 
 html {
     -ms-text-size-adjust: 100%;
@@ -6,7 +8,7 @@ html {
 }
 body {
     margin: 0;
-    font: 100%/1 sans-serif;
+    font: 100%/1;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }

@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Regex</title>
 		<link href="style.css" rel="stylesheet">
-        <link rel="stylesheet" href="http://basehold.it/12">
+        <!-- <link rel="stylesheet" href="http://basehold.it/12"> -->
 
 	</head>
 
@@ -20,17 +20,20 @@
         <h5>Pellentesque habitant morbi tristique senectus et</h5>
         <h6>Pellentesque habitant morbi tristique senectus et</h6>
 
-        <p>Welcome to RegExr v2.0 by gskinner.com!</p>
-        <p>Edit the Expression & Text to see matches. Roll over matches or the expression for details. Undo mistakes with ctrl-z. Save & Share expressions with friends or the Community. A full Reference & Help is available in the Library, or watch the video Tutorial.</p>
-        <p>Sample text for testing:</p>
-        <p>abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-        <p>0123456789 +-.,!@#$%^&*();\/|<>"'</p>
-        <p>12345 -98.7 3.141 .6180 9,000 +42</p>
-        <p>555.123.4567    +1-(800)-555-2468</p>
-        <p>foo@demo.net    bar.ba@test.co.uk</p>
-        <p>www.demo.com    http://foo.co.uk/</p>
-        <p>http://regexr.com/foo.html?q=bar</p>
-        <p>to test HEAD~</p>
+        <h1>Typography</h1>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+        
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+        <h2>Typography</h2>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        
+        <h3>Typography</h3>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
 
 <!--
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
