@@ -89,25 +89,25 @@ p {
 }
 
 h1 {
-  font-size: 2.68435rem;
+  font-size: 2.0736rem;
   line-height: 2.25rem;
   margin-bottom: 1.5rem;
 }
 
 h2 {
-  font-size: 2.09715rem;
+  font-size: 1.728rem;
   line-height: 2.25rem;
   margin-bottom: 1.5rem;
 }
 
 h3 {
-  font-size: 1.6384rem;
+  font-size: 1.44rem;
   line-height: 2.25rem;
   margin-bottom: 1.5rem;
 }
 
 h4 {
-  font-size: 1.28rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -119,7 +119,7 @@ h5 {
 }
 
 h6 {
-  font-size: 0.78125rem;
+  font-size: 0.83333rem;
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
 }
