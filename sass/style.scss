@@ -1,10 +1,136 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-
 //@import "foundation";
 
 //@import "typography";
 
+@import "compass/css3/background-size";
 
+
+/* Placeholder */
+
+.placeholderSelector {
+    color: orange;
+}
+
+p {
+    @extend .placeholderSelector;
+    @media screen and (max-width: 600px) {
+        color: pink;
+    }
+}
+
+div {
+    @extend .placeholderSelector;
+}
+
+
+
+/* Mixin */
+
+@mixin mixinSelector() {
+    background: grey;
+}
+
+body {
+    @include mixinSelector();
+}
+
+div {
+    @include mixinSelector();
+}
+
+
+
+/* Extend  */
+
+h1 {
+    font: Helvetica;
+}
+
+#logo {
+    @extend h1;
+}
+
+.container {
+    @extend h1;
+}
+
+
+/* Mixin example */
+
+@mixin settings($color, $font-size, $border-bottom, $line-height) {
+    color: $color;
+    font-size: $font-size;
+    border-bottom: $border-bottom;
+    line-height: $line-height;
+}
+
+$values: (color: green, font-size: 2em, border-bottom: 1px solid, line-height: 100%);
+$values2: (color: orange, font-size: 1em, border-bottom: 1px dotted, line-height: 100%);
+
+
+
+div {
+    @include settings($values...);
+    @media screen and (max-width: 20em) {
+        @include settings($values2...);
+    }
+}
+
+
+/* Extend order */
+
+p %class {
+    color: blue;
+}
+
+subClass {
+    @extend %class;
+}
+
+subClass2 {
+    @extend %class;
+}
+
+subClass3 {
+    @extend %class;
+}
+
+/* This */
+
+$break-small: 320px;
+$break-large: 1200px;
+
+$screen: screen;
+
+.profile-pic {
+  float: left;
+  width: 250px;
+  @media #{$screen} and (max-width: $break-small) {
+    width: 100px;
+    float: none;
+  }
+  @media #{$screen} and (min-width: $break-large) {
+    float: right;
+  }
+}
+
+.your.my {
+    background: yellow;
+}
+
+.style {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 100px;
+    border: 50px dotted orange;
+    background-origin: content-box;
+    background-clip: border-box;
+    box-sizing: border-box;
+}
+
+.style--css {
+    padding: 12px;
+    margin: 12px;
+    border: 1px solid green;
+}

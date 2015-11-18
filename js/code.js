@@ -8,3 +8,6 @@ console.log(result);
 
 // var matches = /hello \S+/i.exec('This is a Hello world!');
 // console.log(matches);
+
+
+$("body").css("background", "pink");
